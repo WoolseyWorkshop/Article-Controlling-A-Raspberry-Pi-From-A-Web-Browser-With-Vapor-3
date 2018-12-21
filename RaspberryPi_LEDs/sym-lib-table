@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RaspberryPi-rescue)(type Legacy)(uri ${KIPRJMOD}/RaspberryPi-rescue.lib)(options "")(descr ""))
+  (lib (name RaspberryPi_LEDs-rescue)(type Legacy)(uri ${KIPRJMOD}/RaspberryPi_LEDs-rescue.lib)(options "")(descr ""))
+)

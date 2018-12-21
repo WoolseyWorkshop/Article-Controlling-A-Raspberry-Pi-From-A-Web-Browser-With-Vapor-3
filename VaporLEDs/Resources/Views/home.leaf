@@ -1,0 +1,25 @@
+#set("title") { Raspberry Pi Remote Control }
+
+#set("body") {
+   <h1>Raspberry Pi Remote Control</h1>
+   <table border=1 style='text-align:center'>
+   <tr><th>Component</th><th>Status</th><th>Control</th></tr>
+   <tr>
+      <td>Red LED</td>
+      <td><font style='color:#(redLEDColor);'>#(redLEDState)</font></td>
+      <td><a href='/redLED/on'>ON</a> / <a href='/redLED/off'>OFF</a></td>
+   </tr>
+   <tr>
+      <td>Yellow LED</td>
+      <td><font style='color:#(yellowLEDColor);'>#(yellowLEDState)</font></td>
+      <td><a href='/yellowLED/on'>ON</a> / <a href='/yellowLED/off'>OFF</a></td>
+   </tr>
+   <tr>
+      <td>Green LED</td>
+      <td><font style='color:#(greenLEDColor);'>#(greenLEDState)</font></td>
+      <td><a href='/greenLED/on'>ON</a> / <a href='/greenLED/off'>OFF</a></td>
+   </tr>
+   </table>
+}
+
+#embed("base")
